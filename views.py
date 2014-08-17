@@ -6,7 +6,7 @@ from app import app
 import pymysql as mdb
 
 db = mdb.connect(user="root", passwd='macmac', host="localhost", db="world_innodb", charset='utf8')
-
+ 
 import numpy, pandas, random, urllib.request
 
 
